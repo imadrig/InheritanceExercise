@@ -11,7 +11,7 @@ namespace Inheritance
         public Reptile() { }
 
         public string Color {get; set;}
-        public string reptileType { get; set;}
+        public string reptileSpecies { get; set;}
         public bool hasScales { get; set;}
         public double MaxLength { get; set;}
     }

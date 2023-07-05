@@ -11,7 +11,7 @@ namespace Inheritance
         public Bird() { }
 
         public string FeatherColor { get; set; }
-        public string BirdType { get; set;}
+        public string birdSpecies { get; set;}
         public int NumberOfWings { get; set; }
 
         public double beakLength { get; set; }

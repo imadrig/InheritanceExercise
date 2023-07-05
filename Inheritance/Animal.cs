@@ -18,5 +18,23 @@ namespace Inheritance
 
         public string NaturalHabitat {get; set; }
 
+        public static string CanFlyResult(Animal animal)
+        {
+            bool canFly = animal.CanFly;
+
+            if (canFly == true)
+            {
+                return "The animal can fly.";
+            }
+            else
+            {
+                return "The animal cannot fly.";
+            }
+
+
+        }
+
     }
+
+    
 }
